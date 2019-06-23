@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="flowing_light_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="flowing_light_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="164000001fs"></ZoomEndTime>
+      <Cursor1Time time="146025552667000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="159"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/flowing_light_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flowing_light_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flowing_light_tb/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flowing_light_tb/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flowing_light_tb/u0/cnt_reg" type="array">
+      <obj_property name="ElementShortName">cnt_reg[23:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_reg[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/flowing_light_tb/u0/cnt_reg" type="array">
+      <obj_property name="ElementShortName">cnt_reg[23:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_reg[23:0]</obj_property>
+   </wvobject>
+</wave_config>

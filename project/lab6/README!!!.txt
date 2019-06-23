@@ -1,0 +1,1 @@
+Verilog $readmemh 系统任务中似乎无法通过相对路径读取数据，只能通过绝对路径。请运行仿真前将 Top_tb.v 中的两个关于 code.txt 和 data.txt 的 $readmemh 中的路径更改为运行此仿真的机器上的绝对路径，不然波形会出错。
